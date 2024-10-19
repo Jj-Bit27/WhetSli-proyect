@@ -1,6 +1,5 @@
 import { create } from "zustand";
 import axios from "axios";
-import dotenv from 'dotenv'
 
 const API_URL = "http://localhost:2000" //process.env.API_BACKEND_URL;
 

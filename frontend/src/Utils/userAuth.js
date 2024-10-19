@@ -1,6 +1,8 @@
+/* Importamos bibliotecas */
 import { create } from "zustand";
 import axios from "axios";
 
+/* URL de la API */
 const API_URL = "http://localhost:2000"
 
 axios.defaults.withCredentials = true;

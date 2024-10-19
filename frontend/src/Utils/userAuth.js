@@ -4,7 +4,7 @@ import dotenv from 'dotenv'
 
 dotenv.config()
 
-const API_URL = process.env.API_BACKEND_URL;
+const API_URL = "http://localhost:2000" //process.env.API_BACKEND_URL;
 
 axios.defaults.withCredentials = true;
 

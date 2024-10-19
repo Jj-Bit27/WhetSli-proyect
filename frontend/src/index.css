@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Matemasie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos para el scrollbar */
+::-webkit-scrollbar {
+  width: 6px; /* Ancho del scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #313131; /* Color del thumb (parte que se arrastra) */
+  border-radius: 4px; /* Bordes redondeados */
+}
+
+::-webkit-scrollbar-track {
+  background: #a8a8a8; /* Color del fondo del scrollbar */
+  border-radius: 4px; /* Bordes redondeados */
+}
